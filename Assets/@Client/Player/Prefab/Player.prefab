@@ -374,6 +374,7 @@ MonoBehaviour:
   moveSpeed: 5
   jumpPower: 5
   currentPitch: 0
+  hp: 0
 --- !u!1001 &5136001053187192547
 PrefabInstance:
   m_ObjectHideFlags: 0

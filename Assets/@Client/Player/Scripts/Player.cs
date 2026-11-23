@@ -136,6 +136,11 @@ public class Player : MonoBehaviour, IDamageable
         }
     }
 
+    public void Heal(float amount)
+    {
+        hp = Mathf.Min(hp + amount, maxHp);
+    }
+
     private IEnumerator CoPlayDamagedEffect()
     {
         meshRenderer.material.color = Color.red;
